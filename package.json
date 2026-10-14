@@ -1,0 +1,19 @@
+{
+  "name": "project-rahat",
+  "version": "2.0.0",
+  "private": true,
+  "description": "RAHAT patient journey hackathon prototype",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "dotenv": "^16.4.7"
+  },
+  "engines": {
+    "node": ">=22 <25"
+  }
+}

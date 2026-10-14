@@ -1,0 +1,75 @@
+[
+  {
+    "id": "manipal-old-airport",
+    "name": "Manipal Hospital, Old Airport Road",
+    "type": "Multispeciality hospital",
+    "address": "98, HAL Old Airport Road, Kodihalli, Bengaluru, Karnataka 560017",
+    "phone": "1800 102 5555",
+    "phoneLabel": "Doctor enquiry (published contact)",
+    "website": "https://www.manipalhospitals.com/oldairportroad/",
+    "sources": [
+      {"label":"Official contact page", "url":"https://www.manipalhospitals.com/oldairportroad/contact-us/"},
+      {"label":"Bengaluru Urban government directory", "url":"https://bengaluruurban.nic.in/en/public-utility/manipal-hospital/"},
+      {"label":"Official site — coordinates in structured data", "url":"https://www.manipalhospitals.com/oldairportroad/"}
+    ],
+    "checked": "2026-10-13",
+    "coordinates": {"lat":12.9584328,"lng":77.6489004},
+    "coordinateNote": "Official website structured-data point. Approximate campus destination; entrance and road route not field-tested.",
+    "departments": [],
+    "timings": "Confirm current service and registration timings directly with the hospital."
+  },
+  {
+    "id": "baptist-hebbal",
+    "name": "Bangalore Baptist Hospital",
+    "type": "Not-for-profit hospital",
+    "address": "Bellary Road, Hebbal, Bengaluru 560024",
+    "phone": "+91 80 22024700",
+    "phoneLabel": "Published hospital contact",
+    "website": "https://bbh.org.in/",
+    "sources": [
+      {"label":"Official contact page and destination map", "url":"https://bbh.org.in/contact/"},
+      {"label":"Official hospital profile", "url":"https://bbh.org.in/about/"}
+    ],
+    "checked": "2026-10-13",
+    "coordinates": {"lat":13.0358406,"lng":77.5895705},
+    "coordinateNote": "Destination point from official contact page's Google Maps place link, not the map viewport. Entrance and road route not field-tested.",
+    "departments": [],
+    "timings": "Confirm current service and registration timings directly with the hospital."
+  },
+  {
+    "id": "nimhans",
+    "name": "National Institute of Mental Health and Neurosciences (NIMHANS)",
+    "type": "Mental health and neurosciences institute",
+    "address": "Hosur Road / Marigowda Road, Lakkasandra, Wilson Garden, Bengaluru 560029",
+    "phone": "+91 80 26995000",
+    "phoneLabel": "Published switchboard",
+    "website": "https://www.nimhans.ac.in/",
+    "sources": [
+      {"label":"Official contact page", "url":"https://www.nimhans.ac.in/contact-us"},
+      {"label":"Official institute profile", "url":"https://www.nimhans.ac.in/about-us"}
+    ],
+    "checked": "2026-10-13",
+    "coordinates": null,
+    "coordinateNote": "Precise hospital entrance coordinates not verified. The official map uses an address point; use Maps and confirm the entrance. Camera guidance is unavailable for this record.",
+    "departments": [],
+    "timings": "Confirm the relevant outpatient service and registration requirements directly."
+  },
+  {
+    "id": "bowring",
+    "name": "Bowring and Lady Curzon Hospitals",
+    "type": "Government hospital",
+    "address": "Shivajinagar, Bengaluru, Karnataka 560001 — confirm the intended entrance before travel",
+    "phone": null,
+    "phoneLabel": "Current hospital phone not verified; consult the official institution",
+    "website": "https://sabvmcri.karnataka.gov.in/english",
+    "sources": [
+      {"label":"Karnataka Legislature hospital listing (2025)", "url":"https://kla.kar.nic.in/council/Replies/unstarred/10032025/usq482%2810032025%29.pdf"},
+      {"label":"Affiliated institution's government website — may be unavailable", "url":"https://sabvmcri.karnataka.gov.in/english"}
+    ],
+    "checked": "2026-10-13",
+    "coordinates": null,
+    "coordinateNote": "Coordinates and current phone unavailable for verification. Use address-based Maps search and confirm directly; camera guidance is unavailable for this record.",
+    "departments": [],
+    "timings": "Current service information requires confirmation. Government source is a 2025 static listing."
+  }
+]

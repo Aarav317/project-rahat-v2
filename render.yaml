@@ -1,0 +1,19 @@
+# Free DEMO only: records are ephemeral. See docs/RENDER_DEPLOY.md for a paid disk.
+# No API key is stored in this file. Add OPENAI_API_KEY privately in Render if needed.
+services:
+  - type: web
+    name: project-rahat
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npm test
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: HOST
+        value: 0.0.0.0
+      - key: TRUST_PROXY
+        value: "1"
+      - key: OPENAI_MODEL
+        value: gpt-4o-mini
